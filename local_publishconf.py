@@ -52,3 +52,8 @@ MARKDOWN = {
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
 SHOW_ARTICLE_AUTHOR = True
+# 忽略 HTML，不讓 Pelican 當成文章解析（避免 meta 警告與 slug 衝突）
+READERS = {'html': None}
+# 排除整個 content 內所有 html，不讓 Pelican 當文章處理
+ARTICLE_EXCLUDES = ['.']
+PAGE_EXCLUDES = ['.']
