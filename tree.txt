@@ -1,0 +1,1300 @@
+列出磁碟區 KINGSTON 的資料夾 PATH
+磁碟區序號為 4B0E-2FE8
+Y:.
+│  .gitignore
+│  LICENSE
+│  acp
+│  acp.bat
+│  cert.pem
+│  cms
+│  cms.bat
+│  favicon.ico
+│  gen_blog
+│  http-server.py
+│  init.py
+│  init_replit
+│  key.pem
+│  local_publishconf.py
+│  localhost.crt
+│  localhost.key
+│  main.py
+│  main2.py
+│  nocache.py
+│  pelicanconf.py
+│  publishconf.py
+│  static.py
+│  user.leo
+│  user.py
+│  waitress_server.py
+│  tree.txt
+│  
+├─blog
+│      index.html
+│      
+├─cmsimde
+│  │  .gitignore
+│  │  LICENSE
+│  │  README.md
+│  │  acp
+│  │  acp.bat
+│  │  cmsimde.leo
+│  │  favicon.ico
+│  │  flaskapp.py
+│  │  nocache.py
+│  │  up.bat
+│  │  wsgi.py
+│  │  
+│  ├─respysive
+│  │      __init__.py
+│  │      container.py
+│  │      content.py
+│  │      presentation.py
+│  │      utils.py
+│  │      version.py
+│  │      
+│  ├─static
+│  │  │  Cango-13v08-min.js
+│  │  │  Cango-13v08.js
+│  │  │  Cango-15v00-min.js
+│  │  │  Cango-15v00.js
+│  │  │  Cango-24v03-min.js
+│  │  │  Cango-24v03.js
+│  │  │  Cango3D-11v00-min.js
+│  │  │  Cango3D-11v00.js
+│  │  │  Cango3D-8v00-min.js
+│  │  │  Cango3D-8v00.js
+│  │  │  Cango3DAnimation-2v00-min.js
+│  │  │  Cango3DAnimation-2v00.js
+│  │  │  CangoAnimation-10v05-min.js
+│  │  │  CangoAnimation-10v05.js
+│  │  │  CangoAxes-4v01-min.js
+│  │  │  CangoAxes-4v01.js
+│  │  │  CangoAxes-6v01-min.js
+│  │  │  CangoAxes-6v01.js
+│  │  │  CangoAxes-9v02-min.js
+│  │  │  CangoAxes-9v02.js
+│  │  │  CanvasStack-2v01-min.js
+│  │  │  CanvasStack-2v01.js
+│  │  │  Graph3D-2v03-min.js
+│  │  │  Graph3D-2v03.js
+│  │  │  PrairieDraw.js
+│  │  │  README
+│  │  │  SVGpathUtils-5v00-min.js
+│  │  │  SVGpathUtils-5v00.js
+│  │  │  SVGpathUtils-6v03-min.js
+│  │  │  SVGpathUtils-6v03.js
+│  │  │  Timeline-4v00.js
+│  │  │  ace.py
+│  │  │  axuploader.js
+│  │  │  beditor.py
+│  │  │  brython.js
+│  │  │  brython_stdlib.js
+│  │  │  bs.js
+│  │  │  buzz-1.2.1.js
+│  │  │  canvasStack1v06.js
+│  │  │  cmsimply.css
+│  │  │  favicons.png
+│  │  │  fengari-web.js
+│  │  │  gearUtils-05.js
+│  │  │  gearUtils-09.js
+│  │  │  jquery-3.3.1.min.js
+│  │  │  jquery-ui.1.12.1.min.js
+│  │  │  jquery.js
+│  │  │  jsc3d.js
+│  │  │  konva.min.js
+│  │  │  load_mathjax.js
+│  │  │  lua_editor.css
+│  │  │  lua_editor.js
+│  │  │  lua_editor.lua
+│  │  │  pixi-3.0.5.min.js
+│  │  │  player_flv_multi.swf
+│  │  │  startimage_en.jpg
+│  │  │  stlviewer.js
+│  │  │  sylvester.js
+│  │  │  sylvester.src.js
+│  │  │  unicode.txt
+│  │  │  viewstl.html
+│  │  │  winkPlayer.css
+│  │  │  winkPlayer.js
+│  │  │  
+│  │  ├─ace
+│  │  │  │  FileSaver.min.js
+│  │  │  │  ace.js
+│  │  │  │  ext-language_tools.js
+│  │  │  │  ext-static_highlight.js
+│  │  │  │  filereader.js
+│  │  │  │  mode-lua.js
+│  │  │  │  mode-markdown.js
+│  │  │  │  mode-python.js
+│  │  │  │  mode-python3.js
+│  │  │  │  theme-monokai.js
+│  │  │  │  worker-lua.js
+│  │  │  │  
+│  │  │  └─snippets
+│  │  │          dart.js
+│  │  │          lua.js
+│  │  │          markdown.js
+│  │  │          python.js
+│  │  │          text.js
+│  │  │          
+│  │  ├─chimper
+│  │  │  ├─css
+│  │  │  │  │  aos.css
+│  │  │  │  │  bootstrap-datepicker.css
+│  │  │  │  │  bootstrap.min.css
+│  │  │  │  │  jquery-ui.css
+│  │  │  │  │  magnific-popup.css
+│  │  │  │  │  mediaelementplayer.css
+│  │  │  │  │  owl.carousel.min.css
+│  │  │  │  │  owl.theme.default.min.css
+│  │  │  │  │  style.css
+│  │  │  │  │  
+│  │  │  │  └─bootstrap
+│  │  │  │          bootstrap-grid.css
+│  │  │  │          bootstrap-reboot.css
+│  │  │  │          bootstrap.css
+│  │  │  │          
+│  │  │  ├─fonts
+│  │  │  │  ├─flaticon
+│  │  │  │  │  │  backup.txt
+│  │  │  │  │  │  
+│  │  │  │  │  ├─font
+│  │  │  │  │  │      Flaticon.eot
+│  │  │  │  │  │      Flaticon.svg
+│  │  │  │  │  │      Flaticon.ttf
+│  │  │  │  │  │      Flaticon.woff
+│  │  │  │  │  │      Flaticon.woff2
+│  │  │  │  │  │      _flaticon.scss
+│  │  │  │  │  │      flaticon.css
+│  │  │  │  │  │      flaticon.html
+│  │  │  │  │  │      
+│  │  │  │  │  └─license
+│  │  │  │  │          license.pdf
+│  │  │  │  │          
+│  │  │  │  └─icomoon
+│  │  │  │      │  Read Me.txt
+│  │  │  │      │  demo.html
+│  │  │  │      │  selection.json
+│  │  │  │      │  style.css
+│  │  │  │      │  
+│  │  │  │      ├─demo-files
+│  │  │  │      │      demo.css
+│  │  │  │      │      demo.js
+│  │  │  │      │      
+│  │  │  │      └─fonts
+│  │  │  │              icomoon.eot
+│  │  │  │              icomoon.svg
+│  │  │  │              icomoon.ttf
+│  │  │  │              icomoon.woff
+│  │  │  │              
+│  │  │  ├─js
+│  │  │  │      aos.js
+│  │  │  │      bootstrap-datepicker.min.js
+│  │  │  │      bootstrap.min.js
+│  │  │  │      jquery-3.3.1.min.js
+│  │  │  │      jquery-migrate-3.0.1.min.js
+│  │  │  │      jquery-ui.js
+│  │  │  │      jquery.countdown.min.js
+│  │  │  │      jquery.magnific-popup.min.js
+│  │  │  │      jquery.stellar.min.js
+│  │  │  │      main.js
+│  │  │  │      mediaelement-and-player.min.js
+│  │  │  │      owl.carousel.min.js
+│  │  │  │      popper.min.js
+│  │  │  │      slick.min.js
+│  │  │  │      typed.js
+│  │  │  │      
+│  │  │  └─scss
+│  │  │      │  _site-base.scss
+│  │  │      │  _site-blocks.scss
+│  │  │      │  _site-navbar.scss
+│  │  │      │  style.scss
+│  │  │      │  
+│  │  │      └─bootstrap
+│  │  │          │  _alert.scss
+│  │  │          │  _badge.scss
+│  │  │          │  _breadcrumb.scss
+│  │  │          │  _button-group.scss
+│  │  │          │  _buttons.scss
+│  │  │          │  _card.scss
+│  │  │          │  _carousel.scss
+│  │  │          │  _close.scss
+│  │  │          │  _code.scss
+│  │  │          │  _custom-forms.scss
+│  │  │          │  _dropdown.scss
+│  │  │          │  _forms.scss
+│  │  │          │  _functions.scss
+│  │  │          │  _grid.scss
+│  │  │          │  _images.scss
+│  │  │          │  _input-group.scss
+│  │  │          │  _jumbotron.scss
+│  │  │          │  _list-group.scss
+│  │  │          │  _media.scss
+│  │  │          │  _mixins.scss
+│  │  │          │  _modal.scss
+│  │  │          │  _nav.scss
+│  │  │          │  _navbar.scss
+│  │  │          │  _pagination.scss
+│  │  │          │  _popover.scss
+│  │  │          │  _print.scss
+│  │  │          │  _progress.scss
+│  │  │          │  _reboot.scss
+│  │  │          │  _root.scss
+│  │  │          │  _tables.scss
+│  │  │          │  _tooltip.scss
+│  │  │          │  _transitions.scss
+│  │  │          │  _type.scss
+│  │  │          │  _utilities.scss
+│  │  │          │  _variables.scss
+│  │  │          │  bootstrap-grid.scss
+│  │  │          │  bootstrap-reboot.scss
+│  │  │          │  bootstrap.scss
+│  │  │          │  
+│  │  │          ├─mixins
+│  │  │          │      _alert.scss
+│  │  │          │      _background-variant.scss
+│  │  │          │      _badge.scss
+│  │  │          │      _border-radius.scss
+│  │  │          │      _box-shadow.scss
+│  │  │          │      _breakpoints.scss
+│  │  │          │      _buttons.scss
+│  │  │          │      _caret.scss
+│  │  │          │      _clearfix.scss
+│  │  │          │      _float.scss
+│  │  │          │      _forms.scss
+│  │  │          │      _gradients.scss
+│  │  │          │      _grid-framework.scss
+│  │  │          │      _grid.scss
+│  │  │          │      _hover.scss
+│  │  │          │      _image.scss
+│  │  │          │      _list-group.scss
+│  │  │          │      _lists.scss
+│  │  │          │      _nav-divider.scss
+│  │  │          │      _pagination.scss
+│  │  │          │      _reset-text.scss
+│  │  │          │      _resize.scss
+│  │  │          │      _screen-reader.scss
+│  │  │          │      _size.scss
+│  │  │          │      _table-row.scss
+│  │  │          │      _text-emphasis.scss
+│  │  │          │      _text-hide.scss
+│  │  │          │      _text-truncate.scss
+│  │  │          │      _transition.scss
+│  │  │          │      _visibility.scss
+│  │  │          │      
+│  │  │          └─utilities
+│  │  │                  _align.scss
+│  │  │                  _background.scss
+│  │  │                  _borders.scss
+│  │  │                  _clearfix.scss
+│  │  │                  _display.scss
+│  │  │                  _embed.scss
+│  │  │                  _flex.scss
+│  │  │                  _float.scss
+│  │  │                  _position.scss
+│  │  │                  _screenreaders.scss
+│  │  │                  _shadows.scss
+│  │  │                  _sizing.scss
+│  │  │                  _spacing.scss
+│  │  │                  _text.scss
+│  │  │                  _visibility.scss
+│  │  │                  
+│  │  ├─controlbar
+│  │  │      pausemouseover.png
+│  │  │      pausenormal.png
+│  │  │      pausepressed.png
+│  │  │      playmouseover.png
+│  │  │      playnormal.png
+│  │  │      playpressed.png
+│  │  │      progressemptymiddle.png
+│  │  │      progressfilledmiddle.png
+│  │  │      progressleft.png
+│  │  │      progressright.png
+│  │  │      
+│  │  ├─ggame
+│  │  │      __init__.py
+│  │  │      app.py
+│  │  │      asset.py
+│  │  │      astro.py
+│  │  │      circle.py
+│  │  │      event.py
+│  │  │      headlessdeps.py
+│  │  │      indicator.py
+│  │  │      input.py
+│  │  │      inputpoint.py
+│  │  │      label.py
+│  │  │      line.py
+│  │  │      logic.py
+│  │  │      mathapp.py
+│  │  │      mathbase.py
+│  │  │      point.py
+│  │  │      pygamedeps.py
+│  │  │      slider.py
+│  │  │      sound.py
+│  │  │      sprite.py
+│  │  │      sysdeps.py
+│  │  │      timer.py
+│  │  │      
+│  │  ├─lua_ex
+│  │  │      array1.lua
+│  │  │      cango1.lua
+│  │  │      draw1.lua
+│  │  │      flag.lua
+│  │  │      for1.lua
+│  │  │      for2.lua
+│  │  │      fun1.lua
+│  │  │      function1.lua
+│  │  │      ga_onemax.lua
+│  │  │      gear1.lua
+│  │  │      guess1.lua
+│  │  │      guess2.lua
+│  │  │      hello.lua
+│  │  │      oop1.lua
+│  │  │      repeat1.lua
+│  │  │      scope1.lua
+│  │  │      star1.lua
+│  │  │      table1.lua
+│  │  │      table2.lua
+│  │  │      while1.lua
+│  │  │      while2.lua
+│  │  │      
+│  │  ├─py
+│  │  │      ace.py
+│  │  │      bat.py
+│  │  │      fourbar.py
+│  │  │      gcs.py
+│  │  │      human.py
+│  │  │      plt.py
+│  │  │      script1.py
+│  │  │      
+│  │  ├─sylvester
+│  │  │      PrairieDraw.js
+│  │  │      sylvester.js
+│  │  │      
+│  │  ├─syntaxhighlighter
+│  │  │  │  shAutoloader.js
+│  │  │  │  shBrushAS3.js
+│  │  │  │  shBrushAppleScript.js
+│  │  │  │  shBrushBash.js
+│  │  │  │  shBrushCSharp.js
+│  │  │  │  shBrushColdFusion.js
+│  │  │  │  shBrushCpp.js
+│  │  │  │  shBrushCss.js
+│  │  │  │  shBrushDart.js
+│  │  │  │  shBrushDelphi.js
+│  │  │  │  shBrushDiff.js
+│  │  │  │  shBrushErlang.js
+│  │  │  │  shBrushGroovy.js
+│  │  │  │  shBrushHaxe.js
+│  │  │  │  shBrushJScript.js
+│  │  │  │  shBrushJava.js
+│  │  │  │  shBrushJavaFX.js
+│  │  │  │  shBrushLua.js
+│  │  │  │  shBrushMojo.js
+│  │  │  │  shBrushPerl.js
+│  │  │  │  shBrushPhp.js
+│  │  │  │  shBrushPlain.js
+│  │  │  │  shBrushPowerShell.js
+│  │  │  │  shBrushPython.js
+│  │  │  │  shBrushRuby.js
+│  │  │  │  shBrushRust.js
+│  │  │  │  shBrushSass.js
+│  │  │  │  shBrushScala.js
+│  │  │  │  shBrushSql.js
+│  │  │  │  shBrushVb.js
+│  │  │  │  shBrushWbt.js
+│  │  │  │  shBrushXml.js
+│  │  │  │  shCore.js
+│  │  │  │  shLegacy.js
+│  │  │  │  
+│  │  │  └─css
+│  │  │          shCore.css
+│  │  │          shCoreDefault.css
+│  │  │          shCoreDjango.css
+│  │  │          shCoreEclipse.css
+│  │  │          shCoreEmacs.css
+│  │  │          shCoreFadeToGrey.css
+│  │  │          shCoreMDUltra.css
+│  │  │          shCoreMidnight.css
+│  │  │          shCoreRDark.css
+│  │  │          shThemeDefault.css
+│  │  │          shThemeDjango.css
+│  │  │          shThemeEclipse.css
+│  │  │          shThemeEmacs.css
+│  │  │          shThemeFadeToGrey.css
+│  │  │          shThemeMDUltra.css
+│  │  │          shThemeMidnight.css
+│  │  │          shThemeRDark.css
+│  │  │          
+│  │  ├─tinymce4
+│  │  │  └─tinymce
+│  │  │      │  jquery.tinymce.min.js
+│  │  │      │  license.txt
+│  │  │      │  tinymce.min.js
+│  │  │      │  
+│  │  │      ├─langs
+│  │  │      │      readme.md
+│  │  │      │      
+│  │  │      ├─plugins
+│  │  │      │  ├─advlist
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─anchor
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─autolink
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─autoresize
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─autosave
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─bbcode
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─charmap
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─code
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─codesample
+│  │  │      │  │  │  plugin.min.js
+│  │  │      │  │  │  
+│  │  │      │  │  └─css
+│  │  │      │  │          prism.css
+│  │  │      │  │          
+│  │  │      │  ├─colorpicker
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─contextmenu
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─directionality
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─emoticons
+│  │  │      │  │  │  plugin.min.js
+│  │  │      │  │  │  
+│  │  │      │  │  └─img
+│  │  │      │  │          smiley-cool.gif
+│  │  │      │  │          smiley-cry.gif
+│  │  │      │  │          smiley-embarassed.gif
+│  │  │      │  │          smiley-foot-in-mouth.gif
+│  │  │      │  │          smiley-frown.gif
+│  │  │      │  │          smiley-innocent.gif
+│  │  │      │  │          smiley-kiss.gif
+│  │  │      │  │          smiley-laughing.gif
+│  │  │      │  │          smiley-money-mouth.gif
+│  │  │      │  │          smiley-sealed.gif
+│  │  │      │  │          smiley-smile.gif
+│  │  │      │  │          smiley-surprised.gif
+│  │  │      │  │          smiley-tongue-out.gif
+│  │  │      │  │          smiley-undecided.gif
+│  │  │      │  │          smiley-wink.gif
+│  │  │      │  │          smiley-yell.gif
+│  │  │      │  │          
+│  │  │      │  ├─example
+│  │  │      │  │      dialog.html
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─example_dependency
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─fullpage
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─fullscreen
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─hr
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─image
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─imagetools
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─importcss
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─insertdatetime
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─layer
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─legacyoutput
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─link
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─lists
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─media
+│  │  │      │  │      moxieplayer.swf
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─nonbreaking
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─noneditable
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─pagebreak
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─paste
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─preview
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─print
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─save
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─searchreplace
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─sh4tinymce
+│  │  │      │  │  │  plugin.js
+│  │  │      │  │  │  plugin.min.js
+│  │  │      │  │  │  
+│  │  │      │  │  ├─fonts
+│  │  │      │  │  │      sh4tinymce.dev.svg
+│  │  │      │  │  │      sh4tinymce.eot
+│  │  │      │  │  │      sh4tinymce.svg
+│  │  │      │  │  │      sh4tinymce.ttf
+│  │  │      │  │  │      sh4tinymce.woff
+│  │  │      │  │  │      
+│  │  │      │  │  ├─langs
+│  │  │      │  │  │      en.js
+│  │  │      │  │  │      
+│  │  │      │  │  └─style
+│  │  │      │  │          style.css
+│  │  │      │  │          
+│  │  │      │  ├─spellchecker
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─tabfocus
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─table
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─template
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─textcolor
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─textpattern
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  ├─visualblocks
+│  │  │      │  │  │  plugin.min.js
+│  │  │      │  │  │  
+│  │  │      │  │  └─css
+│  │  │      │  │          visualblocks.css
+│  │  │      │  │          
+│  │  │      │  ├─visualchars
+│  │  │      │  │      plugin.min.js
+│  │  │      │  │      
+│  │  │      │  └─wordcount
+│  │  │      │          plugin.min.js
+│  │  │      │          
+│  │  │      ├─skins
+│  │  │      │  └─lightgray
+│  │  │      │      │  content.inline.min.css
+│  │  │      │      │  content.min.css
+│  │  │      │      │  skin.ie7.min.css
+│  │  │      │      │  skin.min.css
+│  │  │      │      │  
+│  │  │      │      ├─fonts
+│  │  │      │      │      tinymce-small.eot
+│  │  │      │      │      tinymce-small.svg
+│  │  │      │      │      tinymce-small.ttf
+│  │  │      │      │      tinymce-small.woff
+│  │  │      │      │      tinymce.eot
+│  │  │      │      │      tinymce.svg
+│  │  │      │      │      tinymce.ttf
+│  │  │      │      │      tinymce.woff
+│  │  │      │      │      
+│  │  │      │      └─img
+│  │  │      │              anchor.gif
+│  │  │      │              loader.gif
+│  │  │      │              object.gif
+│  │  │      │              trans.gif
+│  │  │      │              
+│  │  │      └─themes
+│  │  │          └─modern
+│  │  │                  theme.min.js
+│  │  │                  
+│  │  └─tipuesearch
+│  │      │  tipuesearch.js
+│  │      │  tipuesearch.min.js
+│  │      │  tipuesearch_content.js
+│  │      │  tipuesearch_set.js
+│  │      │  
+│  │      └─css
+│  │          │  normalize.min.css
+│  │          │  tipuesearch.css
+│  │          │  
+│  │          └─img
+│  │                  expand.png
+│  │                  link.png
+│  │                  loader.gif
+│  │                  search.png
+│  │                  
+│  ├─up_dir
+│  │  │  .gitignore
+│  │  │  LICENSE
+│  │  │  acp
+│  │  │  acp.bat
+│  │  │  cert.pem
+│  │  │  cms
+│  │  │  cms.bat
+│  │  │  favicon.ico
+│  │  │  gen_blog
+│  │  │  http-server.py
+│  │  │  index.html
+│  │  │  init.py
+│  │  │  init_replit
+│  │  │  key.pem
+│  │  │  local_publishconf.py
+│  │  │  localhost.crt
+│  │  │  localhost.key
+│  │  │  main.py
+│  │  │  main2.py
+│  │  │  nocache.py
+│  │  │  pelicanconf.py
+│  │  │  publishconf.py
+│  │  │  static.py
+│  │  │  user.leo
+│  │  │  user.py
+│  │  │  waitress_server.py
+│  │  │  
+│  │  ├─blog
+│  │  │      index.html
+│  │  │      
+│  │  ├─config
+│  │  │      content.htm
+│  │  │      content_backup.htm
+│  │  │      pelican.leo
+│  │  │      reveal.leo
+│  │  │      sitetitle
+│  │  │      
+│  │  ├─content
+│  │  │      About.html
+│  │  │      Develop.html
+│  │  │      index.html
+│  │  │      sitemap.html
+│  │  │      tipuesearch_content.js
+│  │  │      
+│  │  ├─downloads
+│  │  │      index.html
+│  │  │      
+│  │  ├─images
+│  │  │      index.html
+│  │  │      
+│  │  ├─markdown
+│  │  │  │  20200813.md
+│  │  │  │  
+│  │  │  ├─images
+│  │  │  │      readme
+│  │  │  │      
+│  │  │  └─pages
+│  │  │          pages_1.md
+│  │  │          
+│  │  ├─plugin
+│  │  │  ├─neighbors
+│  │  │  │      Readme.rst
+│  │  │  │      __init__.py
+│  │  │  │      neighbors.py
+│  │  │  │      
+│  │  │  ├─pelican_plugin_lists
+│  │  │  │  ├─liquid_tags
+│  │  │  │  │      index.html
+│  │  │  │  │      
+│  │  │  │  ├─render_math
+│  │  │  │  │      index.html
+│  │  │  │  │      
+│  │  │  │  ├─sitemap
+│  │  │  │  │      index.html
+│  │  │  │  │      
+│  │  │  │  ├─summary
+│  │  │  │  │      index.html
+│  │  │  │  │      
+│  │  │  │  └─tipue_search
+│  │  │  │          index.html
+│  │  │  │          
+│  │  │  ├─render_math
+│  │  │  │      Readme.md
+│  │  │  │      __init__.py
+│  │  │  │      math.py
+│  │  │  │      mathjax_script_template
+│  │  │  │      pelican_mathjax_markdown_extension.py
+│  │  │  │      
+│  │  │  ├─sitemap
+│  │  │  │      Readme.rst
+│  │  │  │      __init__.py
+│  │  │  │      sitemap.py
+│  │  │  │      
+│  │  │  ├─summary
+│  │  │  │      Readme.rst
+│  │  │  │      __init__.py
+│  │  │  │      summary.py
+│  │  │  │      test_summary.py
+│  │  │  │      
+│  │  │  └─tipue_search
+│  │  │          README.md
+│  │  │          __init__.py
+│  │  │          tipue_search.py
+│  │  │          
+│  │  ├─reveal
+│  │  │  │  .gitignore
+│  │  │  │  .npmignore
+│  │  │  │  LICENSE
+│  │  │  │  README.md
+│  │  │  │  demo.html
+│  │  │  │  gulpfile.js
+│  │  │  │  index.html
+│  │  │  │  package-lock.json
+│  │  │  │  package.json
+│  │  │  │  
+│  │  │  ├─css
+│  │  │  │  │  layout.scss
+│  │  │  │  │  reveal.scss
+│  │  │  │  │  
+│  │  │  │  ├─print
+│  │  │  │  │      paper.scss
+│  │  │  │  │      pdf.scss
+│  │  │  │  │      
+│  │  │  │  └─theme
+│  │  │  │      │  README.md
+│  │  │  │      │  
+│  │  │  │      ├─source
+│  │  │  │      │      beige.scss
+│  │  │  │      │      black.scss
+│  │  │  │      │      blood.scss
+│  │  │  │      │      league.scss
+│  │  │  │      │      moon.scss
+│  │  │  │      │      night.scss
+│  │  │  │      │      serif.scss
+│  │  │  │      │      simple.scss
+│  │  │  │      │      sky.scss
+│  │  │  │      │      solarized.scss
+│  │  │  │      │      white.scss
+│  │  │  │      │      
+│  │  │  │      └─template
+│  │  │  │              exposer.scss
+│  │  │  │              mixins.scss
+│  │  │  │              settings.scss
+│  │  │  │              theme.scss
+│  │  │  │              
+│  │  │  ├─dist
+│  │  │  │  │  reset.css
+│  │  │  │  │  reveal.css
+│  │  │  │  │  reveal.esm.js
+│  │  │  │  │  reveal.esm.js.map
+│  │  │  │  │  reveal.js
+│  │  │  │  │  reveal.js.map
+│  │  │  │  │  
+│  │  │  │  └─theme
+│  │  │  │      │  beige.css
+│  │  │  │      │  black.css
+│  │  │  │      │  blood.css
+│  │  │  │      │  league.css
+│  │  │  │      │  moon.css
+│  │  │  │      │  night.css
+│  │  │  │      │  serif.css
+│  │  │  │      │  simple.css
+│  │  │  │      │  sky.css
+│  │  │  │      │  solarized.css
+│  │  │  │      │  white.css
+│  │  │  │      │  
+│  │  │  │      └─fonts
+│  │  │  │          ├─league-gothic
+│  │  │  │          │      LICENSE
+│  │  │  │          │      league-gothic.css
+│  │  │  │          │      league-gothic.eot
+│  │  │  │          │      league-gothic.ttf
+│  │  │  │          │      league-gothic.woff
+│  │  │  │          │      
+│  │  │  │          └─source-sans-pro
+│  │  │  │                  LICENSE
+│  │  │  │                  source-sans-pro-italic.eot
+│  │  │  │                  source-sans-pro-italic.ttf
+│  │  │  │                  source-sans-pro-italic.woff
+│  │  │  │                  source-sans-pro-regular.eot
+│  │  │  │                  source-sans-pro-regular.ttf
+│  │  │  │                  source-sans-pro-regular.woff
+│  │  │  │                  source-sans-pro-semibold.eot
+│  │  │  │                  source-sans-pro-semibold.ttf
+│  │  │  │                  source-sans-pro-semibold.woff
+│  │  │  │                  source-sans-pro-semibolditalic.eot
+│  │  │  │                  source-sans-pro-semibolditalic.ttf
+│  │  │  │                  source-sans-pro-semibolditalic.woff
+│  │  │  │                  source-sans-pro.css
+│  │  │  │                  
+│  │  │  ├─examples
+│  │  │  │  │  auto-animate.html
+│  │  │  │  │  backgrounds.html
+│  │  │  │  │  barebones.html
+│  │  │  │  │  layout-helpers.html
+│  │  │  │  │  markdown.html
+│  │  │  │  │  markdown.md
+│  │  │  │  │  math.html
+│  │  │  │  │  media.html
+│  │  │  │  │  multiple-presentations.html
+│  │  │  │  │  transitions.html
+│  │  │  │  │  
+│  │  │  │  └─assets
+│  │  │  │          beeping.txt
+│  │  │  │          beeping.wav
+│  │  │  │          image1.png
+│  │  │  │          image2.png
+│  │  │  │          
+│  │  │  ├─js
+│  │  │  │  │  config.js
+│  │  │  │  │  index.js
+│  │  │  │  │  reveal.js
+│  │  │  │  │  
+│  │  │  │  ├─components
+│  │  │  │  │      playback.js
+│  │  │  │  │      
+│  │  │  │  ├─controllers
+│  │  │  │  │      autoanimate.js
+│  │  │  │  │      backgrounds.js
+│  │  │  │  │      controls.js
+│  │  │  │  │      focus.js
+│  │  │  │  │      fragments.js
+│  │  │  │  │      keyboard.js
+│  │  │  │  │      location.js
+│  │  │  │  │      notes.js
+│  │  │  │  │      overview.js
+│  │  │  │  │      plugins.js
+│  │  │  │  │      pointer.js
+│  │  │  │  │      print.js
+│  │  │  │  │      progress.js
+│  │  │  │  │      slidecontent.js
+│  │  │  │  │      slidenumber.js
+│  │  │  │  │      touch.js
+│  │  │  │  │      
+│  │  │  │  └─utils
+│  │  │  │          color.js
+│  │  │  │          constants.js
+│  │  │  │          device.js
+│  │  │  │          loader.js
+│  │  │  │          util.js
+│  │  │  │          
+│  │  │  ├─plugin
+│  │  │  │  ├─highlight
+│  │  │  │  │      highlight.esm.js
+│  │  │  │  │      highlight.js
+│  │  │  │  │      monokai.css
+│  │  │  │  │      plugin.js
+│  │  │  │  │      zenburn.css
+│  │  │  │  │      
+│  │  │  │  ├─markdown
+│  │  │  │  │      markdown.esm.js
+│  │  │  │  │      markdown.js
+│  │  │  │  │      plugin.js
+│  │  │  │  │      
+│  │  │  │  ├─math
+│  │  │  │  │      katex.js
+│  │  │  │  │      math.esm.js
+│  │  │  │  │      math.js
+│  │  │  │  │      mathjax2.js
+│  │  │  │  │      mathjax3.js
+│  │  │  │  │      plugin.js
+│  │  │  │  │      
+│  │  │  │  ├─notes
+│  │  │  │  │      notes.esm.js
+│  │  │  │  │      notes.js
+│  │  │  │  │      plugin.js
+│  │  │  │  │      speaker-view.html
+│  │  │  │  │      
+│  │  │  │  ├─search
+│  │  │  │  │      plugin.js
+│  │  │  │  │      search.esm.js
+│  │  │  │  │      search.js
+│  │  │  │  │      
+│  │  │  │  └─zoom
+│  │  │  │          plugin.js
+│  │  │  │          zoom.esm.js
+│  │  │  │          zoom.js
+│  │  │  │          
+│  │  │  └─test
+│  │  │      │  simple.md
+│  │  │      │  test-auto-animate.html
+│  │  │      │  test-dependencies-async.html
+│  │  │      │  test-dependencies.html
+│  │  │      │  test-grid-navigation.html
+│  │  │      │  test-iframe-backgrounds.html
+│  │  │      │  test-iframes.html
+│  │  │      │  test-markdown.html
+│  │  │      │  test-multiple-instances-es5.html
+│  │  │      │  test-multiple-instances.html
+│  │  │      │  test-pdf.html
+│  │  │      │  test-plugins.html
+│  │  │      │  test-state.html
+│  │  │      │  test.html
+│  │  │      │  
+│  │  │      └─assets
+│  │  │              external-script-a.js
+│  │  │              external-script-b.js
+│  │  │              external-script-c.js
+│  │  │              external-script-d.js
+│  │  │              
+│  │  ├─templates
+│  │  │      base.html
+│  │  │      index.html
+│  │  │      
+│  │  └─theme
+│  │      ├─attila
+│  │      │  │  README.adoc
+│  │      │  │  fabfile.py
+│  │      │  │  
+│  │      │  ├─static
+│  │      │  │  ├─css
+│  │      │  │  │  │  style.css
+│  │      │  │  │  │  style.min.css
+│  │      │  │  │  │  
+│  │      │  │  │  └─code_blocks
+│  │      │  │  │          darkly.css
+│  │      │  │  │          github.css
+│  │      │  │  │          monokai.css
+│  │      │  │  │          tomorrow.css
+│  │      │  │  │          tomorrow_night.css
+│  │      │  │  │          
+│  │      │  │  ├─font
+│  │      │  │  │      icons.eot
+│  │      │  │  │      icons.svg
+│  │      │  │  │      icons.ttf
+│  │      │  │  │      icons.woff
+│  │      │  │  │      
+│  │      │  │  ├─images
+│  │      │  │  │      home-bg.jpg
+│  │      │  │  │      post-bg.jpg
+│  │      │  │  │      
+│  │      │  │  ├─js
+│  │      │  │  │      script.js
+│  │      │  │  │      
+│  │      │  │  └─tipuesearch
+│  │      │  │      │  tipuesearch.css
+│  │      │  │      │  tipuesearch.js
+│  │      │  │      │  tipuesearch.min.js
+│  │      │  │      │  tipuesearch_content.js
+│  │      │  │      │  tipuesearch_set.js
+│  │      │  │      │  
+│  │      │  │      └─img
+│  │      │  │              loader.gif
+│  │      │  │              search.png
+│  │      │  │              
+│  │      │  └─templates
+│  │      │      │  archives.html
+│  │      │      │  article.html
+│  │      │      │  author.html
+│  │      │      │  authors.html
+│  │      │      │  base.html
+│  │      │      │  categories.html
+│  │      │      │  category.html
+│  │      │      │  index.html
+│  │      │      │  page.html
+│  │      │      │  period_archives.html
+│  │      │      │  search.html
+│  │      │      │  tag.html
+│  │      │      │  tags.html
+│  │      │      │  
+│  │      │      └─partials
+│  │      │              analytics.js
+│  │      │              comments_count.html
+│  │      │              disqus.js
+│  │      │              jsonld.html
+│  │      │              jsonld_article.html
+│  │      │              loop.html
+│  │      │              navigation.html
+│  │      │              og.html
+│  │      │              og_article.html
+│  │      │              pagination.html
+│  │      │              
+│  │      └─tipuesearch
+│  │          │  tipuesearch.css
+│  │          │  tipuesearch.js
+│  │          │  tipuesearch.min.js
+│  │          │  tipuesearch_content.js
+│  │          │  tipuesearch_set.js
+│  │          │  
+│  │          └─img
+│  │                  expand.png
+│  │                  link.png
+│  │                  loader.gif
+│  │                  search.png
+│  │                  
+│  └─__pycache__
+│          flaskapp.cpython-313.pyc
+│          nocache.cpython-313.pyc
+│          
+├─config
+│      config
+│      content.htm
+│      content_backup.htm
+│      pelican.leo
+│      reveal.leo
+│      sitetitle
+│      
+├─content
+│      About.html
+│      Brython.html
+│      Project.html
+│      Pyodide3.html
+│      Python.html
+│      index.html
+│      sitemap.html
+│      tipuesearch_content.js
+│      w5.html
+│      w8.html
+│      測試中.html
+│      
+├─downloads
+│  │  1a_w3_about_presentation.txt
+│  │  index.html
+│  │  open_duck_mini.7z
+│  │  otto_robot.7z
+│  │  pyodide_robot_commented.py
+│  │  reveal_file.py
+│  │  
+│  ├─assets
+│  │  ├─css
+│  │  │      abm.css
+│  │  │      abm2.css
+│  │  │      abm3.css
+│  │  │      efs.css
+│  │  │      sorbone.css
+│  │  │      
+│  │  └─img
+│  │          Univers_Fractal_J.H..jpg
+│  │          logo_efs.svg
+│  │          respysiv.png
+│  │          slide1.png
+│  │          slide2.png
+│  │          slide3.png
+│  │          slide4.png
+│  │          slide4b.png
+│  │          slide5.png
+│  │          slide5_fig.png
+│  │          slide6.png
+│  │          slide7.png
+│  │          slide8_9.png
+│  │          slide_latex.png
+│  │          split_title.png
+│  │          
+│  └─py
+│      │  brython_robot.py
+│      │  brython_robot2.py
+│      │  brython_robot3.py
+│      │  brython_robot4.py
+│      │  brython_robot_extended.py
+│      │  point.py
+│      │  
+│      └─line
+│              __init__.py
+│              point2.py
+│              
+├─images
+│      blue_robot_e.png
+│      blue_robot_n.png
+│      blue_robot_s.png
+│      blue_robot_w.png
+│      create_g_workspace_email_account.png
+│      east.png
+│      index.html
+│      north.png
+│      ollama_on_win10.png
+│      
+├─markdown
+│  │  20200813.md
+│  │  
+│  ├─images
+│  │      readme
+│  │      
+│  └─pages
+│          pages_1.md
+│          
+├─plugin
+│  ├─neighbors
+│  │      Readme.rst
+│  │      __init__.py
+│  │      neighbors.py
+│  │      
+│  ├─pelican_plugin_lists
+│  │  ├─liquid_tags
+│  │  │      index.html
+│  │  │      
+│  │  ├─render_math
+│  │  │      index.html
+│  │  │      
+│  │  ├─sitemap
+│  │  │      index.html
+│  │  │      
+│  │  ├─summary
+│  │  │      index.html
+│  │  │      
+│  │  └─tipue_search
+│  │          index.html
+│  │          
+│  ├─render_math
+│  │      Readme.md
+│  │      __init__.py
+│  │      math.py
+│  │      mathjax_script_template
+│  │      pelican_mathjax_markdown_extension.py
+│  │      
+│  ├─sitemap
+│  │      Readme.rst
+│  │      __init__.py
+│  │      sitemap.py
+│  │      
+│  ├─summary
+│  │      Readme.rst
+│  │      __init__.py
+│  │      summary.py
+│  │      test_summary.py
+│  │      
+│  └─tipue_search
+│          README.md
+│          __init__.py
+│          tipue_search.py
+│          
+├─reveal
+│  │  index.html
+│  │  
+│  └─assets
+│      ├─css
+│      │      abm.css
+│      │      abm2.css
+│      │      abm3.css
+│      │      efs.css
+│      │      sorbone.css
+│      │      
+│      └─img
+│              Univers_Fractal_J.H..jpg
+│              logo_efs.svg
+│              respysiv.png
+│              slide1.png
+│              slide2.png
+│              slide3.png
+│              slide4.png
+│              slide4b.png
+│              slide5.png
+│              slide5_fig.png
+│              slide6.png
+│              slide7.png
+│              slide8_9.png
+│              slide_latex.png
+│              split_title.png
+│              
+├─templates
+│      base.html
+│      index.html
+│      
+├─theme
+│  ├─attila
+│  │  │  README.adoc
+│  │  │  fabfile.py
+│  │  │  
+│  │  ├─static
+│  │  │  ├─css
+│  │  │  │  │  style.css
+│  │  │  │  │  style.min.css
+│  │  │  │  │  
+│  │  │  │  └─code_blocks
+│  │  │  │          darkly.css
+│  │  │  │          github.css
+│  │  │  │          monokai.css
+│  │  │  │          tomorrow.css
+│  │  │  │          tomorrow_night.css
+│  │  │  │          
+│  │  │  ├─font
+│  │  │  │      icons.eot
+│  │  │  │      icons.svg
+│  │  │  │      icons.ttf
+│  │  │  │      icons.woff
+│  │  │  │      
+│  │  │  ├─images
+│  │  │  │      home-bg.jpg
+│  │  │  │      post-bg.jpg
+│  │  │  │      
+│  │  │  ├─js
+│  │  │  │      script.js
+│  │  │  │      
+│  │  │  └─tipuesearch
+│  │  │      │  tipuesearch.css
+│  │  │      │  tipuesearch.js
+│  │  │      │  tipuesearch.min.js
+│  │  │      │  tipuesearch_content.js
+│  │  │      │  tipuesearch_set.js
+│  │  │      │  
+│  │  │      └─img
+│  │  │              loader.gif
+│  │  │              search.png
+│  │  │              
+│  │  └─templates
+│  │      │  archives.html
+│  │      │  article.html
+│  │      │  author.html
+│  │      │  authors.html
+│  │      │  base.html
+│  │      │  categories.html
+│  │      │  category.html
+│  │      │  index.html
+│  │      │  page.html
+│  │      │  period_archives.html
+│  │      │  search.html
+│  │      │  tag.html
+│  │      │  tags.html
+│  │      │  
+│  │      └─partials
+│  │              analytics.js
+│  │              comments_count.html
+│  │              disqus.js
+│  │              jsonld.html
+│  │              jsonld_article.html
+│  │              loop.html
+│  │              navigation.html
+│  │              og.html
+│  │              og_article.html
+│  │              pagination.html
+│  │              
+│  └─tipuesearch
+│      │  tipuesearch.css
+│      │  tipuesearch.js
+│      │  tipuesearch.min.js
+│      │  tipuesearch_content.js
+│      │  tipuesearch_set.js
+│      │  
+│      └─img
+│              expand.png
+│              link.png
+│              loader.gif
+│              search.png
+│              
+├─__pycache__
+│      init.cpython-313.pyc
+│      user.cpython-313.pyc
+│      
+├─key
+│      cp_demo--key1.ppk
+│      
+└─static
+        brython_robot.py
+        
