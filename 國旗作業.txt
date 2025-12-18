@@ -1,0 +1,272 @@
+Skip to content
+ 
+Search Gists
+Search...
+All gists
+Back to GitHub
+@41423243-kenny
+41423243-kenny/中華民國國旗
+Created 3 weeks ago • Report abuse
+Code
+Revisions
+1
+Clone this repository at &lt;script src=&quot;https://gist.github.com/41423243-kenny/e303388a513232ed377e6f5921b0b607.js&quot;&gt;&lt;/script&gt;
+<script src="https://gist.github.com/41423243-kenny/e303388a513232ed377e6f5921b0b607.js"></script>
+中華民國國旗
+from browser import document as doc
+from browser import html
+import math
+
+# 1. 建立 Canvas
+canvas = html.CANVAS(width=600, height=400)
+canvas.id = "taiwan_flag"
+brython_div = doc["brython_div1"]
+brython_div <= canvas
+ctx = canvas.getContext("2d")
+
+flag_w = canvas.width
+flag_h = canvas.height
+
+# 2. 紅底
+ctx.fillStyle = "rgb(255, 0, 0)"
+ctx.fillRect(0, 0, flag_w, flag_h)
+
+# 3. 青天矩形 (旗寬一半, 旗高一半)
+blue_w = flag_w / 2
+blue_h = flag_h / 2
+ctx.fillStyle = "rgb(0, 0, 150)"
+ctx.fillRect(0, 0, blue_w, blue_h)
+
+# 4. 白日光芒中心
+cx = blue_w / 2
+cy = blue_h / 2
+
+# 5. 白色光芒，12道，調整粗度
+ctx.fillStyle = "white"
+num_rays = 12
+outer_radius = flag_w / 8          # 外圓半徑
+inner_radius = outer_radius * 0.3  # 內圓半徑更小，尖刺粗
+angle_width = math.radians(9)      # 每道光芒尖角寬度更大
+
+for i in range(num_rays):
+    angle = i * (2 * math.pi / num_rays)
+
+    # 三角形三點座標
+    x1 = cx + inner_radius * math.cos(angle - angle_width)
+    y1 = cy + inner_radius * math.sin(angle - angle_width)
+
+    x2 = cx + outer_radius * math.cos(angle)
+    y2 = cy + outer_radius * math.sin(angle)
+
+    x3 = cx + inner_radius * math.cos(angle + angle_width)
+    y3 = cy + inner_radius * math.sin(angle + angle_width)
+
+    ctx.beginPath()
+    ctx.moveTo(x1, y1)
+    ctx.lineTo(x2, y2)
+    ctx.lineTo(x3, y3)
+    ctx.closePath()
+    ctx.fill()
+
+# 6. 藍色圓環（光芒外圓）
+ctx.beginPath()
+ctx.arc(cx, cy, flag_w * 17 / 240, 0, 2 * math.pi)
+ctx.fillStyle = "rgb(0, 0, 149)"
+ctx.fill()
+
+# 7. 白色圓心
+ctx.beginPath()
+ctx.arc(cx, cy, flag_w / 16, 0, 2 * math.pi)
+ctx.fillStyle = "white"
+ctx.fill()
+中華民國國旗順時針旋轉45度
+from browser import document as doc
+from browser import html
+import math
+
+# 1. 建立 Canvas
+canvas_w = 600
+canvas_h = 400
+canvas = html.CANVAS(width=canvas_w, height=canvas_h)
+canvas.id = "taiwan_flag"
+brython_div = doc["brython_div1"]
+brython_div <= canvas
+ctx = canvas.getContext("2d")
+
+# 2. 設定旋轉角度
+rotation_angle = math.pi / 4  # 45度
+
+# 3. 國旗原始尺寸比例 (寬:高 = 3:2)
+flag_orig_w = 600
+flag_orig_h = 400
+
+# 4. 計算旋轉後最大寬高，避免超出畫布
+# 旋轉矩形後邊界 = |w*cosθ| + |h*sinθ|, |w*sinθ| + |h*cosθ|
+rot_w = abs(flag_orig_w * math.cos(rotation_angle)) + abs(flag_orig_h * math.sin(rotation_angle))
+rot_h = abs(flag_orig_w * math.sin(rotation_angle)) + abs(flag_orig_h * math.cos(rotation_angle))
+
+scale_factor = min(canvas_w / rot_w, canvas_h / rot_h)  # 縮放比例
+
+# 5. 設定旋轉中心 (畫布中心)
+cx_center = canvas_w / 2
+cy_center = canvas_h / 2
+
+ctx.save()
+ctx.translate(cx_center, cy_center)  # 移到畫布中心
+ctx.rotate(rotation_angle)           # 旋轉
+ctx.scale(scale_factor, scale_factor) # 縮放
+ctx.translate(-flag_orig_w / 2, -flag_orig_h / 2)  # 將原點移到國旗左上角
+
+# 6. 紅底
+ctx.fillStyle = "rgb(255,0,0)"
+ctx.fillRect(0, 0, flag_orig_w, flag_orig_h)
+
+# 7. 青天矩形 (寬一半、高一半)
+blue_w = flag_orig_w / 2
+blue_h = flag_orig_h / 2
+ctx.fillStyle = "rgb(0,0,150)"
+ctx.fillRect(0, 0, blue_w, blue_h)
+
+# 8. 白日光芒中心
+cx = blue_w / 2
+cy = blue_h / 2
+
+# 9. 白色光芒
+ctx.fillStyle = "white"
+num_rays = 12
+outer_radius = flag_orig_w / 8
+inner_radius = outer_radius * 0.3
+angle_width = math.radians(9)
+
+for i in range(num_rays):
+    angle = i * (2 * math.pi / num_rays)
+    x1 = cx + inner_radius * math.cos(angle - angle_width)
+    y1 = cy + inner_radius * math.sin(angle - angle_width)
+    x2 = cx + outer_radius * math.cos(angle)
+    y2 = cy + outer_radius * math.sin(angle)
+    x3 = cx + inner_radius * math.cos(angle + angle_width)
+    y3 = cy + inner_radius * math.sin(angle + angle_width)
+
+    ctx.beginPath()
+    ctx.moveTo(x1, y1)
+    ctx.lineTo(x2, y2)
+    ctx.lineTo(x3, y3)
+    ctx.closePath()
+    ctx.fill()
+
+# 10. 藍色圓環
+ctx.beginPath()
+ctx.arc(cx, cy, flag_orig_w * 17 / 240, 0, 2 * math.pi)
+ctx.fillStyle = "rgb(0,0,149)"
+ctx.fill()
+
+# 11. 白色圓心
+ctx.beginPath()
+ctx.arc(cx, cy, flag_orig_w / 16, 0, 2 * math.pi)
+ctx.fillStyle = "white"
+ctx.fill()
+
+ctx.restore()  # 恢復畫布原始狀態
+中華民國國旗順時針旋轉90度
+from browser import document as doc
+from browser import html
+import math
+
+# 1. 建立 Canvas
+canvas_w = 600
+canvas_h = 400
+canvas = html.CANVAS(width=canvas_w, height=canvas_h)
+canvas.id = "taiwan_flag"
+brython_div = doc["brython_div1"]
+brython_div <= canvas
+ctx = canvas.getContext("2d")
+
+# 2. 設定旋轉角度 90度
+rotation_angle = math.pi / 2  # 90度
+
+# 3. 國旗原始尺寸比例 (寬:高 = 3:2)
+flag_orig_w = 600
+flag_orig_h = 400
+
+# 4. 計算旋轉後最大寬高，避免超出畫布
+rot_w = abs(flag_orig_w * math.cos(rotation_angle)) + abs(flag_orig_h * math.sin(rotation_angle))
+rot_h = abs(flag_orig_w * math.sin(rotation_angle)) + abs(flag_orig_h * math.cos(rotation_angle))
+scale_factor = min(canvas_w / rot_w, canvas_h / rot_h)
+
+# 5. 設定旋轉中心 (畫布中心)
+cx_center = canvas_w / 2
+cy_center = canvas_h / 2
+
+ctx.save()
+ctx.translate(cx_center, cy_center)   # 移到畫布中心
+ctx.rotate(rotation_angle)            # 旋轉90度
+ctx.scale(scale_factor, scale_factor) # 縮放
+ctx.translate(-flag_orig_w / 2, -flag_orig_h / 2)  # 原點移到國旗左上角
+
+# 6. 紅底
+ctx.fillStyle = "rgb(255,0,0)"
+ctx.fillRect(0, 0, flag_orig_w, flag_orig_h)
+
+# 7. 青天矩形 (寬一半，高一半)
+blue_w = flag_orig_w / 2
+blue_h = flag_orig_h / 2
+ctx.fillStyle = "rgb(0,0,150)"
+ctx.fillRect(0, 0, blue_w, blue_h)
+
+# 8. 白日光芒中心
+cx = blue_w / 2
+cy = blue_h / 2
+
+# 9. 白色光芒，12道
+ctx.fillStyle = "white"
+num_rays = 12
+outer_radius = flag_orig_w / 8
+inner_radius = outer_radius * 0.3
+angle_width = math.radians(9)
+
+for i in range(num_rays):
+    angle = i * (2 * math.pi / num_rays)
+    x1 = cx + inner_radius * math.cos(angle - angle_width)
+    y1 = cy + inner_radius * math.sin(angle - angle_width)
+    x2 = cx + outer_radius * math.cos(angle)
+    y2 = cy + outer_radius * math.sin(angle)
+    x3 = cx + inner_radius * math.cos(angle + angle_width)
+    y3 = cy + inner_radius * math.sin(angle + angle_width)
+
+    ctx.beginPath()
+    ctx.moveTo(x1, y1)
+    ctx.lineTo(x2, y2)
+    ctx.lineTo(x3, y3)
+    ctx.closePath()
+    ctx.fill()
+
+# 10. 藍色圓環
+ctx.beginPath()
+ctx.arc(cx, cy, flag_orig_w * 17 / 240, 0, 2 * math.pi)
+ctx.fillStyle = "rgb(0,0,149)"
+ctx.fill()
+
+# 11. 白色圓心
+ctx.beginPath()
+ctx.arc(cx, cy, flag_orig_w / 16, 0, 2 * math.pi)
+ctx.fillStyle = "white"
+ctx.fill()
+
+ctx.restore()  # 恢復畫布原始狀態
+@41423218skyler
+Comment
+ 
+Leave a comment
+ 
+Footer
+© 2025 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
